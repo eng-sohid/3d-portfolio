@@ -1,3 +1,4 @@
+import profileImg from "./assets/profile.jpg";
 import { useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
@@ -163,12 +164,12 @@ export default function App() {
         <div className="profile-header">
           <div className="avatar-box">
             <img
-              src="./profile.jpg"
+              src={profileImg}
+              alt="Profile"
+              className="avatar-img"
               onError={(e) => {
                 (e.target as HTMLElement).style.display = "none";
               }}
-              alt="Profile"
-              className="avatar-img"
             />
           </div>
           <div>
