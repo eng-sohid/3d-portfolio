@@ -163,7 +163,7 @@ export default function App() {
         <div className="profile-header">
           <div className="avatar-box">
             <img
-              src="/profile.jpg"
+              src="./profile.jpg"
               onError={(e) => {
                 (e.target as HTMLElement).style.display = "none";
               }}
