@@ -86,7 +86,7 @@ export default function App() {
             color="#00f3ff"
             letterSpacing={0.08}
           >
-            SOFTWARE ENGINEER & GRAPHIC DESIGNER
+            SOFTWARE ENGINEER & WEB DEVELOPER
           </Text>
         </Float>
 
@@ -163,14 +163,7 @@ export default function App() {
         {/* Profile Header */}
         <div className="profile-header">
           <div className="avatar-box">
-            <img
-              src={profileImg}
-              alt="Profile"
-              className="avatar-img"
-              onError={(e) => {
-                (e.target as HTMLElement).style.display = "none";
-              }}
-            />
+            <img src={profileImg} alt="Profile" className="avatar-img" />
           </div>
           <div>
             <h3 style={{ margin: 0, fontSize: "18px", color: "#f8fafc" }}>
@@ -192,7 +185,7 @@ export default function App() {
             >
               I am a passionate <strong>Software Engineer</strong>,{" "}
               <strong>Web Developer</strong>, and{" "}
-              <strong>Graphic Designer</strong>. Currently studying Computer
+              <strong>Problem Solver</strong>. Currently studying Computer
               Science & Technology, I focus on constructing cutting-edge web
               applications and creative interactive UI/UX experiences.
             </p>
